@@ -1,11 +1,11 @@
 [Unit]
-Description=Synergy server
+Description=Barrier server
 Requires=x_dummy.service network.target
 After=x_dummy.service network.target
 
 [Service]
-ExecStart=/usr/bin/synergys -c /etc/synergy/synergy.conf -f --display :0.0
-ExecStop=killall /usr/bin/synergys
+ExecStart=/usr/local/bin/barriers -c /etc/barrier.conf -f --display :0.0
+ExecStop=killall /usr/local/bin/barriers
 Restart=always
 RestartSec=3
 
