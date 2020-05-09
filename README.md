@@ -1,5 +1,5 @@
 # barrier-headless
-This is a write up on how to run `barrier` (the synergy-core fork) on a headless raspberry pi. It's based on the [work]([work](https://github.com/hishamk/headlesssynergysetup)) of @hishamk, describing how to do the same thing for the original synergy.
+This is a write up on how to run `barrier` (the synergy-core fork) on a headless raspberry pi. It's based on the [work](https://github.com/hishamk/headlesssynergysetup) of [hishamk](https://github.com/hishamk/), describing how to do the same thing for the original synergy.
 
 ## Why is this useful?
 If you're running multiple machines, none of them being the primary one, and you don't want to have the server machine running all the time just to share mouse and keyboard, this guide might be for you.
@@ -11,7 +11,7 @@ The keyboard still sends keys to the host system. I have to look into how to dis
 I've read on some forums, that running barrier as service with root privileges is dangerous. So use at own risk.
 
 ## More Info
-I'm no linux expert. I just customized what I found over at @hiskamk's repo. For more technical details, please visit his repository.
+I'm no linux expert. I just customized what I found over at [hishamk](https://github.com/hishamk/)'s repo. For more technical details, please visit his repository.
 
 # Setup steps
 1. `apt update`
